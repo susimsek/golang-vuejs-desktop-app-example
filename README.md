@@ -5,7 +5,7 @@
 
 ## App
 
-<img src="https://github.com/susimsek/golang-vuejs-desktop-app-example/blob/main/images/app.png" alt="Golang Cpu Usage App" width="100%" height="100%"/> 
+<img src="https://github.com/susimsek/golang-vuejs-desktop-app-example/blob/main/images/app.png" alt="Golang Cpu Usage App" width="75%" height="75%"/> 
 
 
 ## Prerequisites
