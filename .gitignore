@@ -1,15 +1,28 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Editors
+.idea/*
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
 
-# Test binary, built with `go test -c`
-*.test
+**/sponge_log.log
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+testing/kokoro/test-env.sh
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Vagrant
+.vagrant/
+
+# General files for the project
+pkg/*
+*.pyc
+bin/*
+.project
+/.bin
+/_test/secrets/*.json
+
+# OSX leaves these everywhere on SMB shares
+._*
+
+# OSX trash
+.DS_Store
