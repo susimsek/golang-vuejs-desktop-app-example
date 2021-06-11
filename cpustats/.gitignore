@@ -38,7 +38,6 @@ testing/kokoro/test-env.sh
 .vagrant/
 
 # General files for the project
-pkg/*
 *.pyc
 bin/*
 .project
